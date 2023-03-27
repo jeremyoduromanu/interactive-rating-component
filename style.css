@@ -14,5 +14,30 @@ html{
 body{
     font-family: 'Overpass', sans-serif;
     background-color: hsl(216, 12%, 8%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+main{
+    width: 90%;
+    margin: auto;
+    background-color: hsl(213, 19%, 18%);
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+
+
+.star-svg{
+    margin-bottom: 2rem;
+    padding-top: 1rem;
+}
+
+.star-svg img{
+    padding:  1.5rem;
+    background-color: hsla(214, 16%, 26%, 0.979);
+    border-radius: 50%;
 }
 
