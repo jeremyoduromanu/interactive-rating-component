@@ -80,19 +80,25 @@ main{
 .rate{
     text-decoration: none;
     border: none;
-    padding: 2rem;
+    padding: 2rem 2.5rem;
     border-radius: 50%;
     background-color: hsl(214, 16%, 26%, 0.979);
     color: hsl(217, 12%, 63%);
     font-weight: 400;
     font-family: 'Overpass', sans-serif;
+    transition: .5s ease;
+}
+
+.rate:hover{
+    color: white;
+    background-color: hsl(217, 12%, 63%);
 }
 
 .submit{
     background-color: hsl(25, 97%, 53%);
     margin-bottom: 2rem;
     width: 100%;
-    padding: 1rem 0;
+    padding: 1rem;
     border-radius: 2rem;
     text-decoration: none;
     border: none;
@@ -100,12 +106,24 @@ main{
     font-size: 1.8rem;
     font-family: 'Overpass', sans-serif;
     text-transform: uppercase;
+    transition: .5s ease;
 }
+
+.submit:hover{
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+}
+
+.rates .active{
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+}
+
 
 /* styling thank you page  */
 
 #thanks-page{
-    z-index: 2;
+    z-index: -1;
     top: 0;
     left: 0;
     position: absolute;
