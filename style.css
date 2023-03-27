@@ -121,3 +121,32 @@ main{
     justify-content: center;
     margin-bottom: 2rem;
 }
+
+.selected-stat{
+    text-align: center;
+    padding: 1rem;
+    margin-bottom: 3rem;
+}
+
+.selected-stat span{
+    color: hsl(25, 97%, 53%);
+    padding: 1rem;
+    background-color: hsla(214, 16%, 26%, 0.979);
+    border-radius: 2rem;
+}
+
+.thank-you{
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.thank-you h1{
+    color: white;
+    font-size: 2.5rem;
+}
+
+.thanks-stat p{
+    font-size: 1.5rem;
+    text-align: center;
+    color: hsl(217, 12%, 63%);
+}
