@@ -114,9 +114,9 @@ main{
     color: hsl(25, 97%, 53%);
 }
 
-.rates .active{
-    background-color: hsl(25, 97%, 53%);
-    color: white;
+.active{
+    background-color: hsl(25, 97%, 53%) !important;
+    color: white !;
 }
 
 
