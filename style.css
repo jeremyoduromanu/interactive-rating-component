@@ -25,7 +25,7 @@ main{
     margin: auto;
     background-color: hsl(213, 19%, 18%);
     padding: 3rem;
-    border-radius: 1rem;
+    border-radius: 1.5rem;
     max-width: 500px;
     position: relative;
 }
